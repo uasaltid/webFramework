@@ -3,6 +3,7 @@
   "dependencies": {
     "formidable": "^3.5.4",
     "ipaddr.js": "^2.3.0",
-    "ws": "^8.18.3"
+    "ws": "^8.18.3",
+    "redis": "^5.11.0"
   }
 }
