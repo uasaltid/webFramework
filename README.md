@@ -149,9 +149,10 @@ npm install
 ```js
 import builder from "../builder.js"
 
-export default builder("example.com")```
+export default builder("example.com")
+```
 
-##🏗 Архитектура
+## 🏗 Архитектура
 ```server.js        → Bootstrap & Domain Loader
    ↓
 builder.js       → HTTP core
