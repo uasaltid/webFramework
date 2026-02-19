@@ -79,7 +79,7 @@ Modular multi-domain HTTP framework & runtime platform for Node.js
 Если backend указан — он будет импортирован динамически:
 ```import("./web/example.com/index.js")```
 
-##📦 Авто-загрузка из GitHub
+## 📦 Авто-загрузка из GitHub
 
 Можно указать репозиторий:
 ```json
@@ -100,7 +100,7 @@ Modular multi-domain HTTP framework & runtime platform for Node.js
 4. Запустит backend
 Это позволяет использовать GitHub как источник деплоя.
 
-##🌐 Глобальная конфигурация
+## 🌐 Глобальная конфигурация
 
 ```builder.js``` читает:
 
@@ -124,7 +124,7 @@ Modular multi-domain HTTP framework & runtime platform for Node.js
 }
 ```
 
-##🔌 Lifecycle Hooks
+## 🔌 Lifecycle Hooks
 
 Через pluginmanager вызываются события:
 ```loading-started```
@@ -141,7 +141,7 @@ cd webFramework
 npm install
 ```
 
-##▶ Запуск
+## ▶ Запуск
 ```node server.js```
 
 ##🧩 Минимальный backend пример
