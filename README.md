@@ -65,7 +65,7 @@ Modular multi-domain HTTP framework & runtime platform for Node.js
 ```./web/example.com/```
 
 Внутри должен быть:
-```params.conf
+```params.conf```
 
 ---
 
@@ -74,7 +74,8 @@ Modular multi-domain HTTP framework & runtime platform for Node.js
 ```json
 {
   "backend": "index.js"
-}```
+}
+```
 Если backend указан — он будет импортирован динамически:
 ```import("./web/example.com/index.js")```
 
@@ -89,7 +90,8 @@ Modular multi-domain HTTP framework & runtime platform for Node.js
     "name": "repository",
     "token": "optional_github_token"
   }
-}```
+}
+```
 
 Тогда фреймворк:
 1. Скачает src/ из GitHub API
@@ -119,7 +121,8 @@ Modular multi-domain HTTP framework & runtime platform for Node.js
     "headers": "*",
     "methods": "*"
   }
-}```
+}
+```
 
 ##🔌 Lifecycle Hooks
 
@@ -135,7 +138,8 @@ Modular multi-domain HTTP framework & runtime platform for Node.js
 ## 📦 Установка
 ```git clone https://github.com/uasaltid/webFramework.git
 cd webFramework
-npm install```
+npm install
+```
 
 ##▶ Запуск
 ```node server.js```
@@ -156,4 +160,5 @@ pluginmanager    → Hooks
    ↓
 logger           → Logging
 redis            → Cache
-analytics        → Metrics```
+analytics        → Metrics
+```
