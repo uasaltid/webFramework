@@ -29,9 +29,7 @@ Modular multi-domain HTTP framework & runtime platform for Node.js
 # 🇷🇺 Документация
 
 ## 📂 Структура проекта
-```
-
-├── server.js
+```├── server.js
 ├── builder.js
 ├── pluginmanager.js
 ├── logger.js
@@ -41,8 +39,8 @@ Modular multi-domain HTTP framework & runtime platform for Node.js
 └── web/
 └── <domain>/
 ├── params.conf
-└── backend file (например index.js)```
-
+└── backend file (например index.js)
+```
 
 ---
 
