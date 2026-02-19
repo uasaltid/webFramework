@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "formidable": "^3.5.4",
+    "ipaddr.js": "^2.3.0",
+    "ws": "^8.18.3"
+  }
+}
